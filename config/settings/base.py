@@ -179,7 +179,7 @@ LOGGING = {
             'filename': BASE_DIR / 'logs/mydjango.log',
             'maxBytes': 1024*1024*5,    # 5MB
             'backupCount': 5,
-            'formatter': 'standard'
+            'formatter': 'standard',
         },
     },
     'loggers': {
